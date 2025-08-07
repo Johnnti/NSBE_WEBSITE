@@ -6,15 +6,15 @@ function App() {
     <div>
       <div className="w-full h-10 bg-yellow-300 fixed top-0 left-0"></div>
 
-      <div className="fixed top-11 flex flex-row gap-x-5 lg:gap-x-10">
-        <div className="border border-1 border-yellow-500 w-30 h-25 sm:left-1 bg-black opacity-75 text-white flex justify-center box-border py-3 flex-col font-[Space_Grotesk]">
+      <div className="fixed top-11 flex flex-row gap-x-5 lg:gap-x-25 lg:px-20">
+        <div className="border border-1 border-yellow-500 w-30 h-25 sm:left-1 bg-black opacity-75 text-white flex justify-center box-border py-3 flex-col font-[Space_Grotesk] ">
           <span className="text-3xl text-center">NSBE</span>
           <span className="text-center text-md font-thin">
             Grambling Chapter
           </span>
         </div>
         <div className="flex w-fit h-fit flex-row border border-1 border-yellow-500">
-          {["Home", "Contact", "Programs", "Leadership", "Membership"].map(
+          {["Home", "Contact", "Programs", "Leadership", "Membership", "Donate"].map(
             (text) => (
               <NavBar text={text} />
             )
