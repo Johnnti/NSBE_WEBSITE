@@ -1,5 +1,6 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
+import Page4 from "./pages/Page4";
 
 function App() {
   return (
@@ -35,8 +36,10 @@ function App() {
         <span className="text-4xl font-bold">NSBE Grambling:Building a Legacy of Excellence</span>
         <a href="#" className="w-50 h-15 bg-yellow-500 text-center py-5 hover:bg-black hover:text-yellow-500 font-bold text-black">Get Involved</a>
       </div>
+      <Page4/>
     </div>
   );
 }
 
 export default App;
+  
