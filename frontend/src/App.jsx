@@ -5,13 +5,13 @@ function App() {
   return (
     <div className="relative w-full h-screen font-[Space_Grotesk]">
       <video 
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="fixed top-0 left-0 w-full h-full object-cover z-0"
         src="/src/assets/background_video_nsbe_website.mp4"
         autoPlay
         loop
         muted
       />
-      <div className="w-full h-10 bg-yellow-500 fixed top-0 left-0"></div>
+      <div className="w-full z-10  h-10 bg-yellow-500 fixed top-0 left-0"></div>
 
       <div className="relative top-11 flex flex-row gap-x-5 lg:gap-x-70 lg:px-20">
         <div className="border border-1 border-yellow-500 w-30 h-25 sm:left-1 bg-black opacity-75 text-white flex justify-center box-border py-3 flex-col font-[Space_Grotesk] ">
@@ -28,10 +28,10 @@ function App() {
           )}
         </div>
       </div>
-      <div className="relative h-fit z-10 w-100 flex flex-col text-white">
-        <span>Empowering Future Black Engineers</span>
-        <span>NSBE Grambling:Building a Legacy of Excellence</span>
-        <a href="#">Get Involved</a>
+      <div className="relative h-fit w-200 flex flex-col text-white top-20 m-30 gap-y-10">
+        <h1 className="text-8xl">Empowering Future Black Engineers</h1>
+        <span className="text-4xl font-bold">NSBE Grambling:Building a Legacy of Excellence</span>
+        <a href="#" className="w-50 h-15 bg-yellow-500 text-center py-5 hover:bg-black hover:text-yellow-500 hover:font-bold">Get Involved</a>
       </div>
     </div>
   );
