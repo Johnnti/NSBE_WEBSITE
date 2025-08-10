@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-import './App.css'
-import Part2 from './components/Part2.jsx'
-
-function App() {
-  return (
-    <>
-      <Part2 />
-    </>
-  )
-=======
+import Page2 from './pages/Page2.jsx';
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Page4 from "./pages/Page4";
@@ -42,15 +32,15 @@ function App() {
           )}
         </div>
       </div>
-      <div className="relative h-fit w-200 flex flex-col text-white top-20 m-30 gap-y-10">
+      <div className="relative w-200 flex flex-col text-white mb-20 mt-20 gap-y-10">
         <h1 className="text-8xl">Empowering Future Black Engineers</h1>
         <span className="text-4xl font-bold">NSBE Grambling:Building a Legacy of Excellence</span>
         <a href="#" className="w-50 h-15 bg-yellow-500 text-center py-5 hover:bg-black hover:text-yellow-500 font-bold text-black">Get Involved</a>
       </div>
+      <Page2 />
       <Page4/>
     </div>
   );
->>>>>>> 7256c402c43bbc3d1d3d6ecd49db2396391bd693
 }
 
 export default App;
