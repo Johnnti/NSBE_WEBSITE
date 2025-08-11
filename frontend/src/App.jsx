@@ -4,7 +4,7 @@ import Page4 from "./pages/Page4";
 
 function App() {
   return (
-    <div className="relative w-full h-screen font-[Space_Grotesk]">
+    <div className="relative w-full h-full font-[Space_Grotesk]">
       <video 
         className="fixed top-0 left-0 w-full h-full object-cover z-0"
         src="/src/assets/background_video_nsbe_website.mp4"
