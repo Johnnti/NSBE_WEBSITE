@@ -7,7 +7,7 @@ export default function Page4(){
         {title: "30+", desc: "Industry Partners"}
     ]
     return (
-        <div className="bg-[url('/src/assets/library.jpg')] bg-center bg-cover bg-no-repeat w-[100vw] h-[100vh] relative bg-fixed min-w-max">
+        <div className="bg-[url('/src/assets/library.jpg')] bg-center bg-cover bg-no-repeat w-[100vw] h-[100vh] relative bg-fixed min-w-max min-h-screen">
             <div className="w-full h-full bg-[rgba(0,0,0,0.5)] flex flex-row">
                 <div className="mt-30 text-white w-6/10 ml-30">
                     <p className="mb-5 text-xl">Our Mission</p>

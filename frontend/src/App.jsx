@@ -1,7 +1,7 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
 import Page4 from "./pages/Page4";
-
+import Page5 from "./pages/Page5"
 function App() {
   return (
     <div className="relative w-full h-full font-[Space_Grotesk]">
@@ -37,6 +37,7 @@ function App() {
         <a href="#" className="w-50 h-15 bg-yellow-500 text-center py-5 hover:bg-black hover:text-yellow-500 font-bold text-black">Get Involved</a>
       </div>
       <Page4/>
+      <Page5/>
     </div>
   );
 }
