@@ -32,7 +32,7 @@ function App() {
           )}
         </div>
       </div>
-      <div className="relative w-200 flex flex-col text-white mb-20 mt-20 gap-y-10">
+      <div className="relative w-200 flex flex-col text-white mb-20 mt-30 gap-y-10 ml-25">
         <h1 className="text-8xl">Empowering Future Black Engineers</h1>
         <span className="text-4xl font-bold">NSBE Grambling:Building a Legacy of Excellence</span>
         <a href="#" className="w-50 h-15 bg-yellow-500 text-center py-5 hover:bg-black hover:text-yellow-500 font-bold text-black">Get Involved</a>
