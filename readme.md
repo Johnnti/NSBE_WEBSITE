@@ -17,4 +17,17 @@ This project aims to serve as the chapter’s central online presence, featuring
 
 ---
 
-## 📂 Project Structure
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
