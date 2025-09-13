@@ -14,6 +14,10 @@ This project aims to serve as the chapter’s central online presence, featuring
 ### Backend
 - *(Planned)* – Backend not yet implemented.  
   Possible stack: **Node.js / Express**, **Python / FastAPI**, or similar.
+### Screenshots
+<img width="1896" height="812" alt="image" src="https://github.com/user-attachments/assets/eb216309-b3fd-4716-910c-e2b125055bf9" />
+<img width="1896" height="812" alt="image" src="https://github.com/user-attachments/assets/f0f24ecc-6e9f-4583-8d27-efdfeb810985" />
+
 
 ---
 
